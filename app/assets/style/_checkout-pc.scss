@@ -14,7 +14,7 @@
         margin-bottom: 8px;
     }
     .w50{
-        max-width: 50%;
+        width: 50%;
     }
     .w100{
         width: 100%;
@@ -22,6 +22,24 @@
     input{
         width: 100%;
         height: 56px;
+    }
+    select{
+        height: 56px;
+    }
+    .receipt{
+        a{
+            background-color: $primary-green;
+            color: $primary-grey;
+            font: normal normal 600 20px/20px PingFang TC;
+            padding: 14px 0;
+            border: 1px solid $primary-grey;
+            display: block;
+            &:hover{
+                background-color: $primary-grey;
+                color: $primary-green;
+                border: $primary-grey;
+            }
+        }
     }
 }
 .next{

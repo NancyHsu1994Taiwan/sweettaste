@@ -1,0 +1,39 @@
+.banner-checkout{
+    height: 80vh;
+    background-image: url("https://bit.ly/2P7GhNd");
+    background-position: center;
+    background-size: cover;
+    img{
+        width: 12%;
+        margin-bottom: 51px;
+    }
+    a{
+        background-color: $primary-yellow;
+        color: $primary-green;
+        width: 300px;
+        padding: 17px 0;
+        display: block;
+        text-align: center;
+        font: normal normal 600 24px/20px PingFang TC;
+    }
+}
+
+@media(max-width: 375px){
+    .banner-checkout{
+        img{
+            width: 90%;
+        }
+        a{
+            display: none;
+        }
+        
+    }
+    .mobile-btn{
+        display: block !important;
+        background-color: $primary-yellow;
+        color: $primary-green;
+        padding: 17px 0;
+        text-align: center;
+        font: normal normal 600 24px/20px PingFang TC;
+    }
+}

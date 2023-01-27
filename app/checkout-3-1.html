@@ -2,9 +2,8 @@
 title: 首頁
 layout: ./app/layout.ejs
 engine: ejs
-current: checkout-2
+current: checkout-3-1
 ---
-
 <div class="container">
     <div class="row">
         <div class="col-lg-1"></div>
@@ -17,44 +16,24 @@ current: checkout-2
                         </div>
                     </div>
                 </div>
-                <div class="credit-card mb-3">
-                    <p class="checkout-title">信用卡卡號</p>
-                    <input type="text" placeholder="9012-3456-7890-1234" class="w100">
+                <div class="receipt mb-3 d-flex">
+                    <a href="./checkout-3-1.html" class="w50 text-center">電子發票</a>
+                    <a href="./checkout-3-2.html" class="w50 text-center">郵寄發票</a>
                 </div>
-                <div class="name mb-3">
-                    <p class="checkout-title">持卡人姓名</p>
-                    <div class="name-box d-flex">
-                        <input type="text" placeholder="王" class="w50">
-                        <input type="text" placeholder="小名" class="w50">
-                    </div>
+                <div class="address mb-3">
+                    <p class="checkout-title">電子郵件信箱</p>
+                    <input type="text" placeholder="example@email.com" class="w100">
+                </div>
+                <div class="taxID-num">
+                    <p class="checkout-title">統一編號（選填）</p>
+                    <input type="text" class="w100" placeholder="統一編號">
                     
-                </div>
-                <div class="exp-date">
-                    <p class="checkout-title">有效期限</p>
-                    <div class="add-choice d-flex mb-2">
-                        <select name="month" id="" class="w50">
-                            <option value="jan">1月</option>
-                            <option value="feb">2月</option>
-                            <option value="mar">3月</option>
-                            <option value="apr">4月</option>
-                            
-                        </select>
-                        <select name="year" id="" class="w50">
-                            <option value="2023">2023</option>
-                            <option value="2024">2024</option>
-                            <option value="2025">2025</option>
-                            <option value="2026">2026</option>
-                        </select>
-                    </div>
                     
     
                 </div>
-                <div class="CVV-num">
-                    <p class="checkout-title">背面末三碼</p>
-                    <input type="text" class="w50" placeholder="123">
-                </div>
+                
             </div>
-            <a href="./checkout-3-1.html" class="next">下一步</a>
+            <a href="./checkout-success.html" class="next">確認結帳</a>
         </div>
         <div class="col-lg-4">
             <div class="order-summary-checkout">
