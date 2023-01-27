@@ -1,0 +1,32 @@
+@media(max-width: 375px){
+    .container{
+        margin-bottom: 0;
+    }
+    .login-box{
+        height: auto;
+    }
+    .mobile-part{
+        display: block;
+        background-color: $primary-grey;
+        padding: 30px;
+        .social-media{
+            background-color: #fff;
+            border: 1px solid $primary-grey;
+            width: 33.33%;
+            height: 56px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .icon{
+                width: 73%;
+            }
+        }
+    }
+
+    .login-bottom{
+        padding-top: 30px;
+    }
+    .social-media-box{
+        display: none !important;
+    }
+}

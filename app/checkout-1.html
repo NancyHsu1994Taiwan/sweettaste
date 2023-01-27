@@ -1,0 +1,112 @@
+---
+title: 首頁
+layout: ./app/layout.ejs
+engine: ejs
+current: checkout-1
+---
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-1"></div>
+        <div class="col-lg-6 ">
+            <div class="checkout">
+                <div class="upper">
+                    <div class="row">
+                        <div class="col-lg-6"><h2>運送</h2></div>
+                        <div class="col-lg-6">
+                        </div>
+                    </div>
+                </div>
+                <ul class="name d-flex justify-content-between mb-3">
+                    <li>
+                        <p class="checkout-title">姓氏</p>
+                        <input type="text" placeholder="王" class="w50"></li>
+                    <li>
+                        <p class="checkout-title">名字</p>
+                        <input type="text" placeholder="小明" class="w50"></li>
+                </ul>
+                <div class="tel mb-3">
+                    <p class="checkout-title">電話</p>
+                    <input type="text" placeholder="0912-345-678" class="w100">
+                </div>
+                <div class="address">
+                    <p class="checkout-title">地址</p>
+                    <div class="add-choice d-flex mb-2">
+                        <select name="county" id="" class="w50">
+                            <option value="kaohsiung">高雄</option>
+                            <option value="tainan">台南</option>
+                            <option value="taichung">台中</option>
+                            <option value="taipei">台北</option>
+                            
+                        </select>
+                        <select name="district" id="" class="w50">
+                            <option value="前鎮區">前鎮區</option>
+                            <option value="新興區">新興區</option>
+                            <option value="小港區">小港區</option>
+                            <option value="左營區">左營區</option>
+                        </select>
+                    </div>
+                    <input type="text" placeholder="幸福路520號" class="w100">
+    
+                </div>
+            </div>
+            <a href="#" class="next">下一步</a>
+        </div>
+        <div class="col-lg-4">
+            <div class="order-summary-checkout">
+                <h2 class="text-center">訂單摘要</h2>
+                <div class="order-content my-3">
+                    <div class="d-flex justify-content-between mb-2">
+                        <span>小計</span>
+                        <span>NT$ 2,700</span>
+                    </div>
+                    <div class="d-flex justify-content-between mb-3">
+                        <span>運費</span>
+                        <span>NT$ 300</span>
+                    </div>
+                    <div class="order-total d-flex">
+                        <span>總計</span>
+                        <span>NT$ 3,000</span>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="product-list">
+                <h2 class="text-center mb-3">購物清單</h2>
+                <ul>
+                    <li class="d-flex mb-3">
+                        <div class="product-img">
+                            <img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/student-week1/p-4.png?raw=true" alt="">
+                        </div>
+                        
+                        <div class="content">
+                            <p>焦糖馬卡龍（2）</p>
+                            <span>NT$ 900</span>
+                        </div>
+                    </li>
+                    <li class="d-flex mb-3">
+                        <div class="product-img">
+                            <img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/student-week1/p-5.png?raw=true" alt="">
+                        </div>
+                        
+                        <div class="content">
+                            <p>焦糖馬卡龍（2）</p>
+                            <span>NT$ 900</span>
+                        </div>
+                    </li>
+                    <li class="d-flex mb-3">
+                        <div class="product-img">
+                            <img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/student-week1/p-6.png?raw=true" alt="">
+                        </div>
+                        
+                        <div class="content">
+                            <p>焦糖馬卡龍（2）</p>
+                            <span>NT$ 900</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-lg-1"></div>
+    </div>
+</div>

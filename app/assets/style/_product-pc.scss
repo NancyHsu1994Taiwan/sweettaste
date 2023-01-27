@@ -1,0 +1,67 @@
+.banner{
+    margin-bottom: 60px;
+
+    .container{
+
+        background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/student-week1/banner.png?raw=true);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 80vh;
+        position: relative;
+    }
+}
+
+.product{
+    margin-bottom: 150px;
+    .container{
+        position: relative;
+    }
+    .category{
+        .title{
+            font: normal normal 600 24px/40px PingFang TC;
+            background-color: $primary-green;
+            color: #fff; 
+            padding: 16px 102px;
+        }
+        .choice{
+            font: normal normal 600 24px/40px PingFang TC;
+            color: $primary-green;
+            border: $primary-grey 1px solid;
+            display: block;
+            width: 100%;
+            padding: 16px 0;
+            &:hover{
+                background-color: $primary-grey;
+            }
+        }
+    }
+    .product-list{
+        .product-card{
+            margin-bottom: 20px ;
+        }
+    }
+    .page-turner{
+        position: absolute;
+        right: 0;
+        // direction: rtl;
+        // .page-links{
+        //     flex-direction: row-reverse;
+        // }
+        a{
+            // display: inline-block;
+            width: 60px;
+            height: 60px;
+            border: $primary-grey 1px solid;
+            padding: 16px 0;
+            font: normal normal 600 20px/20px PingFang TC;
+            color: $primary-green;
+            
+        }
+        .page-index:hover{
+            background-color: $primary-green;
+            color: #fff;
+        }
+    }
+}
+

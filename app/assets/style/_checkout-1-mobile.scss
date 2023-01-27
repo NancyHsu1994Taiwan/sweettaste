@@ -1,0 +1,9 @@
+@media(max-width: 375px){
+    .order-summary-checkout,.product-list{
+        display: none !important;
+    }
+    .w50{
+        max-width: 153px !important;
+    }
+
+}

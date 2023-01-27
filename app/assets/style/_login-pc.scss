@@ -1,0 +1,97 @@
+.container{
+    margin-bottom: 60px;
+}
+
+.login-box{
+    width: 390px;
+    height: 380px;
+}
+.login-top{
+    padding: 40px 0;
+
+    background-color: $primary-green;
+    h1{
+        font: normal normal 600 36px/36px PingFang TC;
+        color: $primary-grey;
+        // margin-bottom: 40px;
+    }
+}
+.login-bottom{
+    padding-bottom: 22px;
+    background-color: $primary-green;
+}
+.input{
+    margin-bottom: 13px;
+    padding: 0 30px;
+    li{
+        background-color: $primary-grey;
+        // padding: 16px 0;
+        .icon{
+            padding: 16px;
+            background-color: $primary-grey;
+            img{
+                width: 24px;
+
+            }
+        }
+        input{
+            width: 100%;
+            height: 56px;
+            border: 0 !important;
+            padding: 0 !important;
+            background-color: $primary-grey;
+            color: $font-light-green;
+        }
+    }
+    
+}
+
+.mobile-part{
+    display: none;
+}
+
+.remember-me{
+    padding: 0 30px;
+    input{
+        zoom: 1.5;
+    }
+    span{
+        font: normal normal 600 16px/36px PingFang TC;
+        color: #fff;
+    }
+}
+
+.login-btn{
+    font: normal normal 600 24px/20px PingFang TC;
+    background-color: $primary-yellow;
+    color: $primary-green;
+    padding: 16px 0;
+    display: inline-block;
+    width: 100%;
+    height: 65px;
+}
+
+.social-media-box{
+    width: 390px;
+    height: 350px;
+    background-color: $primary-grey;
+    padding: 40px 30px;
+    h2{
+        font: normal normal 300 24px/36px PingFang TC;
+        margin-bottom: 36px;
+        color: $font-light-green;
+    }
+    .social-media{
+        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #fff;
+        width: 100%;
+        height: 56px;
+        margin-bottom: 16px;
+        .icon{
+            width: 20%;
+        }
+    }
+}

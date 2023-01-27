@@ -1,0 +1,90 @@
+.checkout{
+    padding: 30px 40px;
+    background-color: $primary-green;
+    .upper{
+        margin-bottom: 30px;
+        h2{
+            font: normal normal 600 36px/20px PingFang TC;
+            color: $primary-grey;
+        }
+    }
+    .checkout-title{
+        font: normal normal 600 20px/20px PingFang TC;
+        color: $primary-grey;
+        margin-bottom: 8px;
+    }
+    .w50{
+        max-width: 186px;
+    }
+    .w100{
+        width: 100%;
+    }
+    input{
+        height: 56px;
+    }
+}
+.next{
+    background-color: $primary-yellow;
+    color: $primary-green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 65px;
+    font: normal normal 600 24px/20px PingFang TC;
+}
+
+.order-summary-checkout{
+    border: 1px solid $primary-grey;
+    // padding: 16px 18px;
+    
+    h2{
+        font: normal normal 600 24px/20px PingFang TC;
+        color: $font-light-green;
+        padding: 16px 0;
+        border-bottom: $primary-grey 1px solid;
+        background-color: $primary-grey;
+    }
+    .order-content{
+        font: normal normal 300 16px/20px PingFang TC;
+        color: $font-light-green;
+        padding: 0 20px;
+    }
+    .order-total{
+        font: normal normal 600 20px/20px PingFang TC;
+        color: $font-light-green;
+    }
+
+}
+
+.product-list{
+    border: 1px solid $primary-grey;
+    h2{
+        font: normal normal 600 24px/20px PingFang TC;
+        color: $font-light-green;
+        padding: 16px 0;
+        border-bottom: $primary-grey 1px solid;
+        background-color: $primary-grey;
+    }
+    .product-img{
+        width: 120px;
+        height: 80px;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .content{
+        color: $font-light-green;
+        margin-left: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        p{
+            font: normal normal 300 16px/20px PingFang TC;
+        }
+        span{
+            font: normal normal 600 20px/20px PingFang TC;
+        }
+    }
+}

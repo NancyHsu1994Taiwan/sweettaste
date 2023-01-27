@@ -1,0 +1,87 @@
+.cart{
+    h2{
+        font: normal normal 600 24px/20px PingFang TC;
+        color: $primary-green;
+        background-color: $primary-grey;
+        padding: 16px 0;
+        margin-bottom: 33px;
+    }
+    .product-box{
+        
+        li{
+            margin-bottom: 40px;
+        }
+        .product-img{
+                width: 110px;
+                height: 110px;
+        }
+        .product-name{
+                    p{
+                        font: normal normal 300 20px/20px PingFang TC;
+                        color: $primary-green;
+                    }
+                    .NT,.product-price{
+                        font: normal normal normal 16px/20px PingFang TC;
+                        color: $primary-green;
+                    }
+        }
+        .quantity{
+                    color: $primary-green;
+                    span{
+                        width: 48px;
+                        height: 48px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        border: 1px solid $primary-grey;
+                        cursor: pointer;
+                        .num{
+                            pointer-events: none;
+                        }
+                    }
+                    
+        }
+        .price{
+            font: normal normal 600 20px/20px PingFang TC;
+            color: $primary-green;
+        }
+        .bin{
+            width: 24px;
+            height: 24px;
+        }
+        .mobile-part-cart{
+            display: none;
+        }
+        
+    }
+    .mobile-part-2{
+        display: none;
+    }
+}
+
+.order-summary-box{
+    background-color: $primary-green;
+    padding: 16px 18px;
+    h2{
+        font: normal normal 600 24px/20px PingFang TC;
+        color: $primary-grey;
+        padding: 16px 0;
+        border-bottom: $primary-grey 1px solid;
+    }
+    .order-content{
+        font: normal normal 300 16px/20px PingFang TC;
+        color: $primary-grey;
+    }
+    .order-total{
+        font: normal normal 600 20px/20px PingFang TC;
+        color: #fff;
+    }
+
+}
+.checkout{
+    background-color: $primary-yellow;
+    color: $primary-green;
+    display: block;
+    padding: 16px 0;
+    font: normal normal 600 24px/20px PingFang TC;
+}

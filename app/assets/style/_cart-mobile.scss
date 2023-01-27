@@ -1,0 +1,71 @@
+@media(max-width: 375px){
+    .cart{
+        .product-list{
+            .product-box{
+                margin-bottom: 8.5px;
+                .product-img{
+                    width: 157px;
+                    height: 106px;
+                    overflow: hidden;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                .product-name{
+                    display: none ;
+                }
+                .quantity{
+                    display: none !important;
+                }
+                .price{
+                    display: none;
+                }
+                .bin{
+                    display: none;
+                }
+                .mobile-part-cart{
+                    display: block !important;
+                    p{
+                        font: normal normal 300 20px/20px PingFang TC;
+                        color: $primary-green;
+                    }
+                    span{
+                        font: normal normal normal 16px/20px PingFang TC; 
+                        margin-bottom: 8px;
+
+                    }
+                    .quantity-mobile{
+                        color: $primary-green;
+                        span{
+                            width: 48px;
+                            height: 48px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            border: 1px solid $primary-grey;
+                            cursor: pointer;
+                            .num{
+                                pointer-events: none;
+                            }
+                        }
+                    }
+                }
+                
+        }
+        .mobile-part-2{
+            border-bottom: 1px solid $primary-grey;
+            border-top: 1px solid $primary-grey;
+            p{
+                text-align: right;
+                font: normal normal 600 20px/20px PingFang TC;
+                color: $primary-green;
+                padding: 8.5px 0;
+
+            }
+        }
+    }
+
+    }
+
+}
+
