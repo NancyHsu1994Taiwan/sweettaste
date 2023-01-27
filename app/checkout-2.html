@@ -2,7 +2,7 @@
 title: 首頁
 layout: ./app/layout.ejs
 engine: ejs
-current: checkout-1
+current: checkout-2
 ---
 
 <div class="container">
@@ -12,16 +12,16 @@ current: checkout-1
             <div class="checkout-box">
                 <div class="upper">
                     <div class="row">
-                        <div class="col-lg-6"><h2>運送</h2></div>
+                        <div class="col-lg-6"><h2>付款</h2></div>
                         <div class="col-lg-6">
                         </div>
                     </div>
                 </div>
                 <ul class="name d-flex justify-content-between mb-3">
-                    <li class="w50">
+                    <li>
                         <p class="checkout-title">姓氏</p>
-                        <input type="text" placeholder="王" ></li>
-                    <li class="w50">
+                        <input type="text" placeholder="王" class="w50"></li>
+                    <li>
                         <p class="checkout-title">名字</p>
                         <input type="text" placeholder="小明" class="w50"></li>
                 </ul>
@@ -50,7 +50,7 @@ current: checkout-1
     
                 </div>
             </div>
-            <a href="./checkout-2.html" class="next">下一步</a>
+            <a href="./checkout-2-pc.html" class="next">下一步</a>
         </div>
         <div class="col-lg-4">
             <div class="order-summary-checkout">

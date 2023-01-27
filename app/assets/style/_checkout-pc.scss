@@ -1,4 +1,4 @@
-.checkout{
+.checkout-box{
     padding: 30px 40px;
     background-color: $primary-green;
     .upper{
@@ -14,12 +14,13 @@
         margin-bottom: 8px;
     }
     .w50{
-        max-width: 186px;
+        max-width: 50%;
     }
     .w100{
         width: 100%;
     }
     input{
+        width: 100%;
         height: 56px;
     }
 }
