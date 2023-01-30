@@ -1,13 +1,18 @@
-.banner{
-    .container{
-        height: 30vh;
+@media(max-width: 975px){
+    .product-banner{
+        .container{
+            height: 30vh;
+        }
     }
-}
-
-.product{
-
-    .page-turner{
-        display: flex;
-        justify-content: center;
+    
+    .product{
+    
+        .page-turner{
+            position: relative;
+            right: 0;
+            display: flex;
+            justify-content: center;
+            margin-bottom: 30px;
+        }
     }
 }

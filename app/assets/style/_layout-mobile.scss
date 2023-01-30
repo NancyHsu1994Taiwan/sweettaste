@@ -1,6 +1,46 @@
 @media(max-width: 375px){
     nav{
+        .mobile-nav{
+            z-index: 10;
+            display: block !important;
+            .check-btn{
+                font-size: 30px;
+                color: $primary-green;
+                cursor: pointer;
+            }
+            ul{
+                display: block;
+                position: fixed;
+                left: -100%;
+                transition: all .5s;
+                width: 100%;
+                top: 100px;
+                // height: 100vh;
+                background: $primary-green;
+                
+                li{
+                    // display: block;
+                    text-align: center;
+                    a{
+                        display: block;
+                        font: normal normal 600 16px/20px PingFang TC;
+                        padding: 20px 0;
+                        color: $primary-grey;
+                        width: 100%;
+                        &:hover{
+                            background-color: #273a2b;
+                        }
+                    }
+                    
+                }
+            }
+            #check:checked ~ ul{
+                left: 0;
+            }
+        }
         .logo{
+            display: flex;
+            justify-content: center;
             picture{
                 width: 115px;
                 height: 40px;
@@ -10,16 +50,19 @@
         }
         .nav{
             .nav-links{
-                display: none;
+                display: none !important;
+            }
+            .cart{
+                padding: 0;
             }
         }
           
         
     }
     footer{
-        // .container{
-        //     padding: 0 !important;
-        // }
+        .container{
+            justify-content: center !important;
+        }
         .email{
             padding: 30px 18px;
             .slogan{
@@ -27,16 +70,21 @@
             }
             .input{
                 justify-content: center !important;
+                padding: 0 !important;
                 input{
-                    max-width: 58%;
+                    width: 58%;
                 }
             }
         }
-        .slogan{
-            .text-align{
-                display: none !important;
+        .content{
+            .mobile-text{
+                display: block !important;
             }
         }
+        .footer-slogan{
+            display: none !important;
+        }
+        
         
     }
 

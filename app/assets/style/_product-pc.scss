@@ -1,13 +1,11 @@
-.banner{
+.product-banner{
     margin-bottom: 60px;
-
     .container{
-
         background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/student-week1/banner.png?raw=true);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-        height: 80vh;
+        height: 100vh;
         position: relative;
     }
 }
@@ -15,9 +13,10 @@
 .product{
     margin-bottom: 150px;
     .container{
-        position: relative;
+        // position: relative;
     }
     .category{
+        margin-bottom: 30px;
         .title{
             font: normal normal 600 24px/40px PingFang TC;
             background-color: $primary-green;
@@ -39,11 +38,68 @@
     .product-list{
         .product-card{
             margin-bottom: 20px ;
+            .card-body{
+                position: relative;
+                .card-body-img{
+                    width: 100%;
+                    // width: 300px;
+                    // height: 315px;
+                    img{
+                        width: 100%;
+                        // max-height: 100%;
+                    }
+                }
+                .bookmark{
+                    background-color: $primary-green;
+                    color: #fff;
+                    font: normal normal 600 16px/20px PingFang TC;
+                    writing-mode: vertical-rl;
+                    padding: 10px;
+                    position: absolute;
+                    top: 0;
+                    left: 20px;
+    
+                }
+                .icon img{
+                    width: 20px;
+                    height: auto;
+                    position: absolute;
+                    top: 19px;
+                    right: 22px;
+                    z-index: 5;
+                }
+            }
+            .card-info {
+                .desert-info{
+                    padding: 14px 33px;
+                    border-left: 1px solid $primary-grey;
+                    border-right: 1px solid $primary-grey;
+                }
+                .desert-price{
+                    width: 42%;
+                }
+                .desert-name{
+                    width: 58%;
+                }
+                p{
+                    font: normal normal 300 20px/20px PingFang TC;
+                    color: $primary-green;
+                }
+            }
+            .add-to-cart{
+                display: block;
+                width: 100%;
+                font: normal normal 600 24px/20px PingFang TC;
+                color: $primary-green;
+                background-color: $primary-grey;
+                padding: 16px 0;
+            }
         }
+
     }
     .page-turner{
         position: absolute;
-        right: 0;
+        right: 120px;
         // direction: rtl;
         // .page-links{
         //     flex-direction: row-reverse;

@@ -1,8 +1,9 @@
 @media(max-width: 375px){
     .cart{
-        .product-list{
+        .product-list-cart{
             .product-box{
                 margin-bottom: 8.5px;
+                border-bottom: none !important;
                 .product-img{
                     width: 157px;
                     height: 106px;
@@ -32,7 +33,7 @@
                     span{
                         font: normal normal normal 16px/20px PingFang TC; 
                         margin-bottom: 8px;
-
+                        color: $primary-green;
                     }
                     .quantity-mobile{
                         color: $primary-green;
@@ -53,6 +54,8 @@
                 
         }
         .mobile-part-2{
+            margin-bottom: 30px;
+            display: block !important;
             border-bottom: 1px solid $primary-grey;
             border-top: 1px solid $primary-grey;
             p{
@@ -66,6 +69,30 @@
     }
 
     }
-
+    .order-summary{
+        .order-summary-box{
+            background-color: #fff;
+            h2{
+                background-color: $primary-grey;
+                color: $primary-green;
+            }
+            .order-content,.order-total{
+                color: $primary-green;
+            }
+        }
+        .checkout-cart{
+            display: none !important;
+        }
+        
+    }
+    .checkout-mobile{
+        display: block !important;
+        width: 100%;
+        background-color: $primary-yellow;
+        color: $primary-green;
+        display: block;
+        padding: 16px 0;
+        font: normal normal 600 24px/20px PingFang TC;
+    }
 }
 

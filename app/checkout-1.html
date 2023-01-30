@@ -4,7 +4,7 @@ layout: ./app/layout.ejs
 engine: ejs
 current: checkout-1
 ---
-
+<div class="checkout">
 <div class="container">
     <div class="row">
         <div class="col-lg-1"></div>
@@ -12,8 +12,15 @@ current: checkout-1
             <div class="checkout-box">
                 <div class="upper">
                     <div class="row">
-                        <div class="col-lg-6"><h2>運送</h2></div>
-                        <div class="col-lg-6">
+                        <div class="col-lg-6 col-6"><h2>運送</h2></div>
+                        <div class="col-lg-6 col-6">
+                            <div class="step-progress d-flex align-items-center">
+                                <i class="fa-regular fa-circle-dot circle-checked"></i>
+                                <div class="line-light"></div>
+                                <i class="fa-regular fa-circle circle-light"></i>
+                                <div class="line-light"></div>
+                                <i class="fa-regular fa-circle circle-light"></i>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -72,7 +79,7 @@ current: checkout-1
                 </div>
                 
             </div>
-            <div class="product-list">
+            <div class="checkout-product-list">
                 <h2 class="text-center mb-3">購物清單</h2>
                 <ul>
                     <li class="d-flex mb-3">
@@ -110,4 +117,5 @@ current: checkout-1
         </div>
         <div class="col-lg-1"></div>
     </div>
+</div>
 </div>

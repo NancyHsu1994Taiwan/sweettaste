@@ -1,7 +1,7 @@
 .banner{
     margin-bottom: 277px;
     .container{
-        background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/student-week1/banner.png?raw=true);
+        background-image: url(https://bit.ly/2OhbMHr);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -38,39 +38,51 @@
     height: 420px;
     background-color: $primary-grey;
     margin-bottom: 105px; 
-    .intro-img{
-        background-image: url("https://github.com/hexschool/webLayoutTraining1st/blob/master/student-week1/p-1.png?raw=true");
-        background-size: cover;
-        background-position: center;
-        width: 460px;
-        height: 460px;
-    }
-    .intro-img2{
-        background-image: url("https://github.com/hexschool/webLayoutTraining1st/blob/master/student-week1/p-2.png?raw=true");
-        background-size: cover;
-        background-position: center;
-        width: 460px;
-        height: 460px;
-    }
-    .context{
-        height: 280px;
-        flex-wrap: wrap;
-        font: normal normal 300 16px/16px PingFang TC; 
-        span{
-            margin-left: 64px;
-            flex-wrap: wrap;
-            line-height: 36px;
-            color: $font-light-green;
-            writing-mode: vertical-rl;
+    .intro-box{
+        position: absolute;
+        width: 85%;
+        .intro-img{
+            background-image: url("https://github.com/hexschool/webLayoutTraining1st/blob/master/student-week1/p-1.png?raw=true");
+            background-size: cover;
+            background-position: center;
+            width: 460px;
+            height: 460px;
+            position: relative;
+            top: -20px;
         }
-    } 
-    .title p{
-        color: $primary-green;
-        font: Noto Serif Traditional Chinese;
-        font-size: 60px;
-        // margin-left: 80px;
-        writing-mode: vertical-rl;
+        .intro-img2{
+            background-image: url("https://github.com/hexschool/webLayoutTraining1st/blob/master/student-week1/p-2.png?raw=true");
+            background-size: cover;
+            background-position: center;
+            width: 460px;
+            height: 460px;
+            position: relative;
+            top: -20px;
+        }
+        .context{
+            
+            height: 280px;
+            flex-wrap: wrap;
+            font: normal normal 300 16px/16px PingFang TC; 
+            span{
+                margin-left: 64px;
+                flex-wrap: wrap;
+                line-height: 36px;
+                color: $font-light-green;
+                writing-mode: vertical-rl;
+            }
+        } 
+        .title{
+            width: 8%;
+            position: relative;
+            top: -112px;
+        }
     }
+    
+}
+
+.intro-mobile{
+    display: none;
 }
 
 .slogan{
@@ -78,8 +90,8 @@
     font: Noto Serif Traditional Chinese;
     font-size: 60px;
     color: $primary-green;
-    p{
-        writing-mode: vertical-rl;
+    img{
+        width: 60%;
     }
 }
 

@@ -1,3 +1,6 @@
+.checkout{
+    margin-bottom: 60px;
+}
 .checkout-box{
     padding: 30px 40px;
     background-color: $primary-green;
@@ -6,6 +9,43 @@
         h2{
             font: normal normal 600 36px/20px PingFang TC;
             color: $primary-grey;
+        }
+        .circle-checked{
+            font-size: 20px;
+            color: $primary-grey;
+        }
+        .circle-light{
+            font-size: 20px;
+            color: $font-light-green;
+        }
+        .line{
+            height: 1px;
+            background-color: $primary-grey;
+            width: calc(100% - 60px);
+        }
+        .line-light{
+            height: 1px;
+            background-color: $font-light-green;
+            width: calc(100% - 60px);
+        }
+            
+        
+
+    }
+    .credit-card{
+        .credit-card-input-box{
+            input{
+                margin: 0 !important;
+                padding: 0 !important;
+            }
+            .credit-card-icon{
+                padding: 16px;
+                background-color: #fff;
+                img{
+                    width: 24px;
+                }
+            }
+            
         }
     }
     .checkout-title{
@@ -55,7 +95,7 @@
 
 .order-summary-checkout{
     border: 1px solid $primary-grey;
-    // padding: 16px 18px;
+    margin-bottom: 20px;
     
     h2{
         font: normal normal 600 24px/20px PingFang TC;
@@ -76,8 +116,9 @@
 
 }
 
-.product-list{
+.checkout-product-list{
     border: 1px solid $primary-grey;
+
     h2{
         font: normal normal 600 24px/20px PingFang TC;
         color: $font-light-green;

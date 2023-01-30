@@ -1,5 +1,11 @@
 nav{
     padding: 30px 0;
+    .mobile-nav{
+        display: none;
+        #check{
+            display: none;
+        }
+    }
     .logo {
         // width: 220px;
         picture{
@@ -7,7 +13,7 @@ nav{
             width: 220px;
             height: 40px;
             source{
-                max-width: 100%;
+                width: 100%;
             }
         }
     }
@@ -74,6 +80,9 @@ footer{
         }
         .content{
             height: 100%;
+            img{
+                width: 66%;
+            }
             .contact{
                 font: normal normal normal 16px/24px Helvetica Neue;
                 color: $primary-green;
@@ -84,13 +93,17 @@ footer{
                     width: 32px;
                 }
             }
+            .mobile-text{
+                display: none;
+            }
 
         }
         .footer-slogan{
+            
             .text-align{
-                writing-mode: vertical-rl;
-                font-size: 30px;
-                color: $primary-green;
+                width: 60px;
+                // position: absolute;
+                // left: 0;
             }
         }
     }

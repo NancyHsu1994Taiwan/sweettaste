@@ -1,6 +1,10 @@
 @media(max-width: 375px){
-    .container{
-        margin-bottom: 0;
+    .login{
+        margin-bottom: 0 !important;
+        .container{
+            margin-bottom: 0;
+            padding: 0;
+        }
     }
     .login-box{
         height: auto;

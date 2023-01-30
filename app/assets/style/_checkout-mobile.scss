@@ -1,5 +1,11 @@
 @media(max-width: 375px){
-    .order-summary-checkout,.product-list{
+    .checkout{
+        margin-bottom: 0 !important;
+        .container{
+            padding: 0 !important;
+        }
+    }
+    .order-summary-checkout,.checkout-product-list{
         display: none !important;
     }
     .w50{
